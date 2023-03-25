@@ -1,0 +1,255 @@
+.active {
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://bsmedia.business-standard.com/_media/bs/img/article/2020-12/11/full/1607655600-5776.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: white;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 4vmin;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    justify-content: center;
+    
+}
+
+.ctn {
+    padding: 10px 15px;
+    background: #fc036b;
+    border-radius: 10px;
+    color: white;
+    
+    
+    
+
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+
+.nav-links {
+    display:grid;
+    align-items: center;
+    font-family: cursive;
+    font-size: 200%;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 10px 30px;
+}
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(73, 73, 189);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events .rows {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: #424281;
+    margin: 20px auto;
+}
+
+p {
+    color: black;
+    padding: 0px 40px;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 2vmax;
+}
+
+.events .ctn {
+    margin-top: 10px;
+}
+
+.Explore {
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://media.istockphoto.com/id/516449022/photo/lady-with-kayak.jpg?s=612x612&w=0&k=20&c=Yp-rzpmY_hbhpbTE38z6toouRKW-lAEN-ZvuWvH8kKE=);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Explore-Content {
+    width: 50%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Explore-Content h1 {
+    font-size: 7vmin;
+}
+
+.Explore-Content .line {
+    margin: 50px;
+
+}
+
+.Explore-Content p {
+    color: white;
+    
+
+}
+
+.Explore-Content .ctn {
+    margin-top: 40px;
+}
+
+.content h1 {
+    font-size: 7vmin;
+    justify-content: center;
+}
+
+.content-line {
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    padding: 20px 80px;
+    margin: 0%;
+    background-color: #424281;
+    text-align: center;
+}
+
+.footer p {
+    color: white;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+@media screen {
+
+
+    .navbar {
+        padding: 0%;
+    }
+
+    .logo {
+        position: absolute;
+        top: 0%;
+        left: 30px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 105vh;
+        justify-content: center;
+        background: #424281;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+
+
+    }
+
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 30px;
+
+    }
+
+    .nav-links li {
+        margin: 0px auto;
+
+    }
+
+    .menu-btn {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        width: 100px;
+        cursor: pointer;
+
+    }
+
+    img {
+        transition: transform .5s step-start;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+    }
+
+    .ctn:hover {
+        background-color: whitesmoke;
+        color: #fc036b;
+        box-shadow: 2px 2px 2px #00000056;
+    }
+
+    li:hover {
+        color: #fc036b;
+        cursor: zoom-out;
+    }
